@@ -1,7 +1,7 @@
 {
-  "versionCode": 10700,
-  "versionName": "1.7.0",
-  "changelog": "v1.7.0：手机版精简顶栏与底栏、新增阅读/编辑切换与屏内右滑推挤呼出侧栏、移除插图方式统一压缩、修复横屏平板无法进入笔记与后台自动同步误报冲突。",
-  "apkUrl": "https://github.com/Corner-wait/WorkNote/releases/download/v1.7.0/WorkNote-1.7.0.apk",
-  "sha256": "15ff1b22c4b1629c84e2fe3223e8b44a84f9d09b48dc55f4cb5f849bfce0aef0"
+    "versionCode":  10701,
+    "versionName":  "1.7.1",
+    "changelog":  "v1.7.1：同步按钮状态点移至图标中心；笔记右上角切换改为单枚「编辑/阅读」两字按钮；编辑态工具栏减小高度并新增右侧展开按钮，展开悬浮显示全部工具。",
+    "apkUrl":  "https://github.com/Corner-wait/WorkNote/releases/download/v1.7.1/WorkNote-1.7.1.apk",
+    "sha256":  "b36c5edd7e1ae8aae851563ca5e6a9414ce577006fe49c92c0fb0b1868195dfa"
 }
