@@ -2,18 +2,22 @@
 
 「网页版工作笔记」Android 客户端公开更新与安装包分发仓库。
 
-- **当前版本**：`v1.7.1`（`versionCode: 10701`）
-- **下载地址**：[WorkNote-1.7.1.apk](https://github.com/Corner-wait/WorkNote/releases/download/v1.7.1/WorkNote-1.7.1.apk)
-- **SHA-256**：`b36c5edd7e1ae8aae851563ca5e6a9414ce577006fe49c92c0fb0b1868195dfa`
+- **当前版本**：`v1.7.2`（`versionCode: 10702`）
+- **GitHub Release 下载**：[WorkNote-1.7.2.apk](https://github.com/Corner-wait/WorkNote/releases/download/v1.7.2/WorkNote-1.7.2.apk)
+- **jsDelivr 镜像下载**：[WorkNote-1.7.2.apk](https://cdn.jsdelivr.net/gh/Corner-wait/WorkNote@main/apk/WorkNote-1.7.2.apk)
+- **SHA-256**：`34fa68a955c4848d6cd0109a7c81a0064f11ecd1393dbaad5087a39091efaed9`
 
 ## version.json 结构
 
 ```json
 {
-    "versionCode":  10701,
-    "versionName":  "1.7.1",
-    "changelog":  "v1.7.1：同步按钮状态点移至图标中心；笔记右上角切换改为单枚「编辑/阅读」两字按钮；编辑态工具栏减小高度并新增右侧展开按钮，展开悬浮显示全部工具。",
-    "apkUrl":  "https://github.com/Corner-wait/WorkNote/releases/download/v1.7.1/WorkNote-1.7.1.apk",
-    "sha256":  "b36c5edd7e1ae8aae851563ca5e6a9414ce577006fe49c92c0fb0b1868195dfa"
+    "versionCode":  10702,
+    "versionName":  "1.7.2",
+    "changelog":  "v1.7.2：加固应用内更新下载与校验链路（新增 3 轮递增退避重试、Content-Length 完整性校验、jsdelivr 多源镜像回退、修复流读取边界并区分下载与校验失败提示）。",
+    "apkUrl":  "https://github.com/Corner-wait/WorkNote/releases/download/v1.7.2/WorkNote-1.7.2.apk",
+    "apkMirrors":  [
+                       "https://cdn.jsdelivr.net/gh/Corner-wait/WorkNote@main/apk/WorkNote-1.7.2.apk"
+                   ],
+    "sha256":  "34fa68a955c4848d6cd0109a7c81a0064f11ecd1393dbaad5087a39091efaed9"
 }
 ```
